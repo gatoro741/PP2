@@ -1,6 +1,4 @@
-"""
-большой
-комментарий
-в несколько строк
-"""
-print("Hello World!")
+x = 5
+y = 'stroka'
+print (x)
+print (y)
