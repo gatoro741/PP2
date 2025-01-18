@@ -1,7 +1,3 @@
-x = 3+5j
-y = 5j
-z = -5j
+import random
 
-print(type(x))
-print(type(y))
-print(type(z))
+print(random.randrange(1, 10))
