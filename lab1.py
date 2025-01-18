@@ -1,4 +1,3 @@
 x = "Python"
-y = "is"
-z = "awesome"
-print(x, y, z)
+y = 5
+print(x, y)
