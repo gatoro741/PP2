@@ -1,3 +1,2 @@
-x = "Python"
-y = 5
-print(x, y)
+x = 5
+print(type(x))
