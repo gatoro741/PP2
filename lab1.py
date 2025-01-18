@@ -1,4 +1,2 @@
-a = """adsfasdfsadf
-adsfadfsdafdas
-adsfdafsfdas."""
-print(a)
+a = "Hello, World!"
+print(a[1])
