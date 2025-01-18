@@ -1,2 +1,4 @@
-a = "Hello"
+a = """adsfasdfsadf
+adsfadfsdafdas
+adsfdafsfdas."""
 print(a)
