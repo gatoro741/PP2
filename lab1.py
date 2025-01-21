@@ -1,7 +1,6 @@
-def myFunction() :
-  return True
-
-if myFunction():
-  print("YES!")
-else:
-  print("NO!")
+print(5 > 3)
+print(10>9)
+print(10 == 9)
+print(10 < 9)
+print(bool("abc"))
+print(bool(0))
