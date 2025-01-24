@@ -1,3 +1,3 @@
 thislist = ["apple", "banana", "cherry"]
-thislist.pop(1)
+del thislist[0]
 print(thislist)
