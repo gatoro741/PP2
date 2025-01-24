@@ -1,3 +1,3 @@
 thislist = ["apple", "banana", "cherry"]
-del thislist[0]
+thislist.clear()
 print(thislist)
