@@ -1,5 +1,6 @@
 thisset = {"apple", "banana", "cherry"}
+tropical = {"pineapple", "mango", "papaya"}
 
-thisset.add("orange")
+thisset.update(tropical)
 
 print(thisset)
