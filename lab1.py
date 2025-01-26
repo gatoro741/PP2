@@ -1,6 +1,6 @@
-thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
-thislist.sort(reverse = True)
+def myfunc(n):
+  return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
 print(thislist)
-thislist2 = [100, 50, 65, 82, 23]
-thislist2.sort(reverse = True)
-print(thislist2)
