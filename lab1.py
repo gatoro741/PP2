@@ -1,3 +1,3 @@
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
-thislist.sort()
+thislist.reverse()
 print(thislist)
