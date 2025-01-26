@@ -1,1 +1,3 @@
-newlist = [x.upper() for x in fruits]
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
