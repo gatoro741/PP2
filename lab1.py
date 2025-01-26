@@ -1,3 +1,3 @@
 thislist = ["apple", "banana", "cherry"]
-mylist = list(thislist)
+mylist = thislist[:]
 print(mylist)
