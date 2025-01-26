@@ -1,6 +1,6 @@
 set1 = {"apple", "banana", "cherry"}
 set2 = {"google", "microsoft", "apple"}
 
-set1.intersection_update(set2)
+set3 = set1.difference(set2)
 
-print(set1)
+print(set3)
