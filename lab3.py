@@ -1,13 +1,10 @@
 class Person:
-  def __init__(mysillyobject, name, age):
-    mysillyobject.name = name
-    mysillyobject.age = age
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
 
-  def myfunc(abc):
-    print("Hello my name is " + abc.name)
+  def printname(self):
+    print(self.firstname, self.lastname)
 
-p1 = Person("John", 36)
-p1.myfunc()
-p1.age = 40
-del p1.age
-del p1
+x = Person("John", "Doe")
+x.printname()
