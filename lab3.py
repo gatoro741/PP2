@@ -8,3 +8,6 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
+p1.age = 40
+del p1.age
+del p1
