@@ -1,4 +1,10 @@
-def my_function(x, /):
-  print(x)
+def tri_recursion(k):
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
 
-my_function(3)
+print("Recursion Example Results:")
+tri_recursion(6)
