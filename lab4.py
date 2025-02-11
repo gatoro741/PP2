@@ -1,5 +1,5 @@
 import datetime
 
 current_date = datetime.datetime.today()
-
-print(current_date.strftime('%Y-%m-%d-%X'))
+yesterday_date = current_date - datetime.timedelta(days=1)
+print(abs((current_date - yesterday_date).total_seconds()))
