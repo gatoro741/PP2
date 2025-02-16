@@ -1,8 +1,9 @@
-def divisible_by_3_and_4(n):
-    for i in range(n + 1):  
-        if i % 3 == 0 and i % 4 == 0: 
-            yield i  
+def squares(a, b):
+    for i in range(a, b + 1):  
+        yield i ** 2  
 
-n = int(input("Enter a number: "))
-for num in divisible_by_3_and_4(n):
-    print(num)
+a = int(input("Enter start number (a): "))
+b = int(input("Enter end number (b): "))
+
+for sq in squares(a, b):
+    print(sq)
