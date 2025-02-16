@@ -1,7 +1,6 @@
-def square_generator(N):
-    for i in range(N + 1):
-        yield i ** 2  
+def even_numbers(n):
+    for i in range(0, n + 1, 2):
+        yield str(i)  
 
-N = int(input("Enter a number: "))
-for square in square_generator(N):
-    print(square)
+n = int(input("Enter a number: "))
+print(", ".join(even_numbers(n))) 
