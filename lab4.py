@@ -1,9 +1,9 @@
-def squares(a, b):
-    for i in range(a, b + 1):  
-        yield i ** 2  
+def countdown(n):
+    for i in range(n, -1, -1): 
+        yield i  
 
-a = int(input("Enter start number (a): "))
-b = int(input("Enter end number (b): "))
 
-for sq in squares(a, b):
-    print(sq)
+n = int(input("Enter a number: "))
+
+for num in countdown(n):
+    print(num)
