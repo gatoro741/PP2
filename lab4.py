@@ -1,6 +1,5 @@
-import math 
-height = int(input("Height: "))
-base1 = int(input("Base, fist value: "))
-base2 = int(input("Base, second value: "))
-answer = ((base1 + base2) * height)/2
-print("Expected Output: ", answer)
+import math
+sides = int(input("Input number of sides: "))  
+length = float(input("Input the length of a side: "))  
+polygon_area = (sides * length ** 2) / (4 * math.tan(math.pi / sides))  
+print("The area of the polygon is:", polygon_area) 
