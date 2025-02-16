@@ -1,5 +1,5 @@
 import math
-sides = int(input("Input number of sides: "))  
-length = float(input("Input the length of a side: "))  
-polygon_area = (sides * length ** 2) / (4 * math.tan(math.pi / sides))  
-print("The area of the polygon is:", polygon_area) 
+base = float(input("Length of base: "))  
+height = float(input("Height of parallelogram: "))  
+parallelogram_area = base * height  
+print("Expected Output:", parallelogram_area)  
