@@ -1,15 +1,17 @@
-def multiplication(numbers):
-    result = 1
-    for chislo in numbers:
-        result *= chislo
-    return result
+def counter(input_string):
+    uppercase_count = 0
+    lowercase_count = 0
+    
+    for char in input_string:
+        if char.isupper():
+            uppercase_count += 1
+        elif char.islower():
+            lowercase_count +=1
+    
+    return uppercase_count, lowercase_count
 
-my_list = [] 
-a = int(input("Введите количество чисел , а после и их вовсе : "))
-for i in range(a) :
-    num = int(input()) 
-    my_list.append(num)
+startstring = input("Введите строку: ")
+uppercase_count, lowercase_count = counter(startstring)
 
-result = multiplication(my_list)
-
-print("List multiplication is" , result)
+print("Amount of lowercase letters :", uppercase_count)
+print("Amount of uppercase letters :", lowercase_count)
